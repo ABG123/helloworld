@@ -1,2 +1,2 @@
 # helloworld
-My first project A classic project for beginers
+My first project A classic project for beginers only
