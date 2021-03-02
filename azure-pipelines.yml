@@ -23,5 +23,5 @@ steps:
   inputs:
     connectionType: 'connectedServiceNameARM'
     method: 'POST'
-    urlSuffix: 'POST https://dev.azure.com/srijanijeon0817/Testabg/_apis/wit/workitems/${type}?api-version=6.0'
+    urlSuffix: 'POST https://dev.azure.com/srijanijeon0817/Testabg/_apis/wit/workitems/Epic?api-version=6.0'
     waitForCompletion: 'false'
