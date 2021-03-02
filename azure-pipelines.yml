@@ -18,9 +18,10 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+
 - task: InvokeRESTAPI@1
   inputs:
     connectionType: 'connectedServiceNameARM'
-    azureServiceConnection: 'Pay-As-You-Go(aa9c0c8d-0de8-481c-9c7f-16b8224f6152)'
     method: 'POST'
+    urlSuffix: 'POST https://dev.azure.com/srijanijeon0817/Testabg/_apis/wit/workitems/${type}?api-version=6.0'
     waitForCompletion: 'false'
